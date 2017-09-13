@@ -4,14 +4,14 @@ var resumeData = JsonUtils.getStaticByName('resume');
 
 async function getIndexHtml(ctx, next){
     resumeData = JsonUtils.getStaticByName('resume');
-    ctx.render('resume/index.html', {
+    ctx.render('index.html', {
         root:''
     });
 }
 
 async function getStaticHtml(ctx, next){
     var rpath = ctx.request.path.replace(/^\//, '');
-    var rdata = extendCopy(resumeData[rpath.match(/\/([^\/.]*)./)[1]]||{});
+    var rdata = extendCopy(resumeData[rpath.match(/([^\/.]*)./)[1]]||{});
     rdata.root = '';
     ctx.render(rpath, rdata);
 }
@@ -26,12 +26,12 @@ function extendCopy(p) {
 }
 
 module.exports = {
-    'GET /resume/': getIndexHtml,
-    'GET /resume/index.html': getIndexHtml,
-    'GET /resume/home.html': getStaticHtml,
-    'GET /resume/about.html': getStaticHtml,
-    'GET /resume/skill.html': getStaticHtml,
-    'GET /resume/exp.html': getStaticHtml,
-    'GET /resume/demo.html': getStaticHtml,
-    'GET /resume/contact.html': getStaticHtml
+    'GET /': getIndexHtml,
+    'GET /index.html': getIndexHtml,
+    'GET /home.html': getStaticHtml,
+    'GET /about.html': getStaticHtml,
+    'GET /skill.html': getStaticHtml,
+    'GET /exp.html': getStaticHtml,
+    'GET /demo.html': getStaticHtml,
+    'GET /contact.html': getStaticHtml
 };
