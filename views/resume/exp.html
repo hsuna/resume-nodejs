@@ -1,0 +1,39 @@
+<div id="exp" class="pp-tableCell">
+    <h1 class="title">工作经历</h1>
+    <div class="info">
+    	<p>{{info}}</p>
+    </div>
+    <div class="content">
+		{% for part in list %}
+			<div class="part">
+				<h3 class="clr-comm">{{part.company}}</h3>
+				<h6>{{part.time}}</h6>
+				<p>{{position}}</p>
+				{% for d in part.content %}
+					<p>{{d}}</p>
+				{% endfor %}
+			</div>
+		{% endfor %}
+    </div>
+    <div class="axis">
+		{% for part in list %}
+			<a>{{part.axis}}</a>
+		{% endfor %}
+    	<span class="line"></span>
+    </div>
+</div>
+
+<script type="text/javascript">
+	$(function(){
+		var len = $('#exp .axis a').length,
+			$line = $('#exp .axis .line'),
+			$part = $('#exp .content .part');
+		$('#exp .axis a').mouseover(function(){
+			if($(this).hasClass('active')) return;
+			var i = $(this).index();
+			$(this).addClass('active').siblings('a').removeClass('active');
+			$part.eq(i).fadeIn().siblings('div').fadeOut();
+			$line.css({'left':(i*100/len)+'%'});
+		}).eq(len-1).mouseover();
+	})
+</script>

@@ -1,0 +1,21 @@
+<div id="home" class="pp-tableCell">
+	<div class="portrait">
+		<img src="{{root}}/static/images/resume/photo_2.jpg">
+		<img src="{{root}}/static/images/resume/photo_1.jpg">
+	</div>
+    
+    <h1 class="title">{{name}}</h1>
+    <p class="fs11">{{motto}}</p>
+    <h3 class="clr-comm">{{position}}</h3>
+    <p><a href="mailto:{{email}}">{{email}}</a></p>
+</div>
+
+<script type="text/javascript" >
+	$(function(){
+		$('#home .portrait').hover(function(){
+			$('img', this).eq(1).stop().fadeIn();
+		}, function(){
+			$('img', this).eq(1).stop().fadeOut();
+		}).mouseout();
+	})
+</script>

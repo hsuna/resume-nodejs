@@ -1,0 +1,15 @@
+<div id="demo" class="pp-tableCell">
+    <h1 class="title">项目展示</h1>
+    <div class="content">
+		{% for data in content %}
+			<a href="{{data.href}}" target="_blank" class="content-block">
+				<i title="{{data.tips}}">{{data.title}}</i>
+				<h4>{{data.name}}</h4>
+				<p>{{data.info}}</p>
+			</a>
+		{% endfor %}
+    </div>
+    <div class="more">
+    	<p><a>{{more}}</a></p>
+    </div>
+</div>

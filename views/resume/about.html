@@ -1,0 +1,16 @@
+<div id="about" class="pp-tableCell">
+    <h1 class="title">关于我</h1>
+    <div class="content">
+        {% for data in content %}
+            <div class="content-block">
+                <i class="iconfont {{data.icon}}"></i>
+                {{data.title}}
+            </div>
+        {% endfor %}
+    </div>
+    <div class="info">
+        {% for d in info %}
+            <p>{{d}}</p>
+        {% endfor %}
+    </div>
+</div>
