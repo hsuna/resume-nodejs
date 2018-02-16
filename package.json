@@ -10,7 +10,7 @@
     "config": {
         "NODE_ENV": "test"
     },
-    "license": "Apache-2.0",
+    "license": "nginx-2.0",
     "dependencies": {
         "babel-core": "6.13.2",
         "babel-polyfill": "6.13.0",
