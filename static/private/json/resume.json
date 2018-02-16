@@ -1,149 +1,141 @@
 {
-  "home":{
-    "name":"陈阳志",
-    "motto":"敢而慎之，勇敢不错失任何机会，谨慎不忽略一丝细节",
-    "position":"web前端工程师",
-    "email":"1622427381@qq.com"
-  },
-  "about":{
-    "content":[
-      {
-        "icon":"icon-medal",
-        "title":"学历 / 大专"
-      },
-      {
-        "icon":"icon-time",
-        "title":"年龄 / 26岁"
-      },
-      {
-        "icon":"icon-location",
-        "title":"坐标 / 广州"
-      },
-      {
-        "icon":"icon-my",
-        "title":"状态 / 在职"
-      }
-    ],
-    "info":[
-        "2013年毕业于广东交通职业技术学院，现就职于广州市昊链信息科技股份有限公司",
-        "比起使用更喜欢研究，看别人的代码，悟别人的思想，只要有思想的代码都是可让人学习的代码",
-        "一个先学js，后学css的F2E  →_→",
-        "为什么学js，因为...closure&prototype"
-    ]
-  },
-  "skill":{
-    "content":"框架的意义是什么？倘若有一天所有框架都没了，你还会写代码吗？",
-    "tags":[
-      [
-        {"title":"HTML/HTML5", "percent":80},
-        {"title":"CSS", "percent":60},
-        {"title":"Javascript", "percent":90}
-      ],
-      [
-        {"title":"jQuery", "percent":80},
-        {"title":"Bootstrap", "percent":60},
-        {"title":"Angularjs", "percent":60},
-        {"title":"Requirejs", "percent":80}
-      ],
-      [
-        {"title":"HTML5+", "percent":80},
-        {"title":"jQueryMobile", "percent":80},
-        {"title":"Mui", "percent":60}
-      ],
-      [
-        {"title":"Canvas", "percent":80},
-        {"title":"CreateJs", "percent":80},
-        {"title":"Egret", "percent":60}
-      ],
-      [
-        {"title":"Node.js", "percent":70}
-      ],
-      [
-        {"title":"Photoshop", "percent":80},
-        {"title":"Flash", "percent":80}
-      ]
-    ]
-  },
-  "exp":{
-    "info":"一步一个脚印，即使时间再短，也会有所收获，生活总是充满故事",
-    "list":[
-      {
-        "axis":"2013/4",
-        "company":"广州菲音信息科技有限公司",
-        "time":"2013年4月~2014年12月",
-        "position":"开发部  游戏前端开发工程师",
-        "content":[
-          "负责游戏前端的开发和维护",
-          "页面画图及数据对接",
-          "工作之余开始前端各项技能的学习"
+    "home": {
+        "name": "陈阳志",
+        "motto": "敢而慎之，勇敢不错失任何机会，谨慎不忽略一丝细节",
+        "position": "web前端工程师",
+        "email": "me@hsuna.com"
+    },
+    "about": {
+        "content": [{
+                "icon": "icon-medal",
+                "title": "学历 / 大专"
+            },
+            {
+                "icon": "icon-time",
+                "title": "年龄 / 27岁"
+            },
+            {
+                "icon": "icon-location",
+                "title": "坐标 / 广州"
+            },
+            {
+                "icon": "icon-my",
+                "title": "状态 / 在职"
+            }
+        ],
+        "info": [
+            "2013年毕业于广东交通职业技术学院",
+            "4年互联网经验，3年web前端开发经验",
+            "强烈的自我驱动力，代码强迫症患者",
+            "一个先学es，后学css的F2E →_→"
         ]
-      },
-      {
-        "axis":"2015/4",
-        "company":"广州创思信息技术有限公司",
-        "time":"2015年4月~2016年7月",
-        "position":"技术部  web前端开发工程师",
-        "content":[
-          "公司各运营官网的web端前端的开发和维护",
-          "公司部分活动与专题页面的开发和维护",
-          "负责活动页面内小游戏的开发",
-          "工作之余开始对JS闭包，原型链等高级特性进行深入研究"
+    },
+    "skill": {
+        "content": "框架的意义是什么？倘若有一天所有框架都没了，你还会写代码吗？",
+        "tags": [
+            [
+                { "title": "html/html5", "percent": "expert" },
+                { "title": "javascript", "percent": "expert" },
+                { "title": "es6", "percent": "expert" }
+            ],
+            [
+                { "title": "css/css3", "percent": "expert" },
+                { "title": "sass", "percent": "expert" },
+                { "title": "less", "percent": "familiar" }
+            ],
+            [
+                { "title": "angular", "percent": "expert" },
+                { "title": "vue/vue-cli", "percent": "expert" },
+                { "title": "react", "percent": "familiar" }
+            ],
+            [
+                { "title": "git", "percent": "expert" },
+                { "title": "webpack", "percent": "expert" },
+                { "title": "gulp", "percent": "common" }
+            ],
+            [
+                { "title": "node.js", "percent": "familiar" },
+                { "title": "koa2", "percent": "familiar" },
+                { "title": "python", "percent": "common" }
+            ]
         ]
-      },
-      {
-        "axis":"2016/9",
-        "company":"广州市昊链信息科技股份有限公司",
-        "time":"2016年9月~至今",
-        "position":"开发部  web前端开发工程师",
-        "content":[
-          "负责web端前端的开发和维护",
-          "负责样式规范制定，自动化构建",
-          "参与公司项目前端的技术架构，参与编写整个项目所有功能的开发",
-          "现阶段主要学习ES6、ES7及Node.js"
+    },
+    "exp": {
+        "info": "一步一个脚印，即使时间再短，也会有所收获，生活总是充满故事",
+        "list": [{
+                "axis": "2013/4",
+                "company": "广州菲音信息科技有限公司",
+                "time": "2013年4月~2014年4月",
+                "position": "开发部  游戏前端开发工程师",
+                "content": [
+                    "负责游戏客户端开发",
+                    "负责游戏开发设计，保证模块的可行性、游戏性和稳定性"
+                ]
+            },
+            {
+                "axis": "2015/4",
+                "company": "广州创思信息技术有限公司",
+                "time": "2015年4月~2016年7月",
+                "position": "开发部  web前端开发工程师",
+                "content": [
+                    "负责前端功能开发，优化和维护产品页面，缩减页面体积、加快加载速度及优化用户体验",
+                    "使用Javascript熟练、准确地进行代码构建，实现所需的动画效果以及交互效果",
+                    "配合后台开发人员实现界面和功能"
+                ]
+            },
+            {
+                "axis": "2016/9",
+                "company": "广州市昊链信息科技股份有限公司",
+                "time": "2016年9月~至今",
+                "position": "开发部  web前端开发工程师",
+                "content": [
+                    "根据产品设计需求，配合后台开发人员实现产品界面和功能，维护及优化前端页面性能",
+                    "制作或协助制作各种页面组件或页面模版",
+                    "参与制定JS、CSS、Html开发规范并推进执行",
+                    "参与设计并编写WEB前端架构及应用"
+                ]
+            }
         ]
-      }
-    ]
-  },
-  "demo":{
-    "content":[
-      {
-        "title":"P",
-        "tips":"pc/web",
-        "name":"昊链科技",
-        "info":"基于PC端货代服务平台",
-        "href":"http://ess.hoolinks.com"
-      },
-      {
-        "title":"M",
-        "tips":"mobile",
-        "name":"越秀金控",
-        "info":"基于移动微信端的金融产品",
-        "href":"http://weixin.niurenqushi.com/wxshow/yuexiujinkong.html"
-      },
-      {
-        "title":"C",
-        "tips":"canvas",
-        "name":"搭桥技术",
-        "info":"基于canvas的微信小游戏",
-        "href":"http://www.9377.com/platform/wx_game_bridge/"
-      },
-      {
-        "title":"A",
-        "tips":"app",
-        "name":"海印金服",
-        "info":"基于Html5+的金融网贷App",
-        "href":"http://www.app111.com/info/1131542853/"
-      }
-    ],
-    "more":""
-  },
-  "contact":{
-    "email":"1622427381@qq.com",
-    "content":[
-      "或许我们没有从0到1的灵感",
-      "但不能没有从1到n的决心",
-      "人生需要不断的尝试，编程的世界里也一样",
-      "量变终归会质变"
-    ]
-  }
+    },
+    "demo": {
+        "content": [{
+                "title": "W",
+                "tips": "pc/web",
+                "name": "昊链科技",
+                "info": "一站式物流供应链服务平台",
+                "href": "https://www.hoolinks.com"
+            },
+            {
+                "title": "M",
+                "tips": "mobile",
+                "name": "链英汇",
+                "info": "关务供应链咨询社区网站",
+                "href": "https://www.hoolinks.com/cloudHub/kklinks.html"
+            },
+            {
+                "title": "A",
+                "tips": "app",
+                "name": "海印金服",
+                "info": "p2p金融网贷App",
+                "href": "http://www.app111.com/info/1131542853/"
+            },
+            {
+                "title": "C",
+                "tips": "canvas",
+                "name": "搭桥技术",
+                "info": "活动专题微信小游戏",
+                "href": "http://www.9377.com/platform/wx_game_bridge/"
+            }
+        ],
+        "more": ""
+    },
+    "contact": {
+        "email": "me@hsuna.com",
+        "content": [
+            "或许我们没有从0到1的灵感",
+            "但不能没有从1到n的决心",
+            "人生需要不断的尝试，编程的世界里也一样",
+            "量变终归会质变"
+        ]
+    }
 }

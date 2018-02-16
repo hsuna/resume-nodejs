@@ -1,21 +1,13 @@
 <div id="skill" class="pp-tableCell">
     <h1 class="title">专业技能</h1>
     <div class="content">
-    	<p>{{content}}</p>
+        <p>{{content}}</p>
     </div>
     {% for tag in tags %}
-        <div class="tag-panel">
-            {% for item in tag %}
-                {% if item.percent >= 80 %}
-                    <div class="tag expert">{{item.title}}</div>
-                {% elif item.percent >=60 %}
-                    <div class="tag familiar">{{item.title}}</div>
-                {% elif item.percent >=40 %}
-                    <div class="tag common">{{item.title}}</div>
-                {% else %}
-                    <div class="tag">{{item.title}}</div>
-                {% endif %}
-            {% endfor %}
-        </div>
+    <div class="tag-panel">
+        {% for item in tag %}
+        <div class="tag {{item.percent}}">{{item.title}}</div>
+        {% endfor %}
+    </div>
     {% endfor %}
 </div>

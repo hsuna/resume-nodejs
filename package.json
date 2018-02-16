@@ -1,18 +1,15 @@
 {
-    "name": "hsuna",
-    "version": "0.0.1",
-    "description": "hsuna resume",
+    "name": "resume_nodejs",
+    "version": "1.0.0",
+    "description": "Hsuna's resume",
+    "author": "Hsuna <me@hsuna.com>",
     "main": "start.js",
     "scripts": {
         "start": "node --use_strict start.js"
     },
-    "config":{
-        "NODE_ENV":"test"
+    "config": {
+        "NODE_ENV": "test"
     },
-    "keywords": [
-        "hsuna"
-    ],
-    "author": "Hsuna",
     "license": "Apache-2.0",
     "dependencies": {
         "babel-core": "6.13.2",
